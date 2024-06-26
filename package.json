@@ -1,0 +1,38 @@
+{
+  "name": "editor-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/editor-components.umd.js",
+  "module": "./dist/editor-components.esm.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  },
+  "peerDependencies": {
+    "vue": "^3.4.30"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@types/lodash-es": "^4.17.12",
+    "eslint": "^9.5.0",
+    "eslint-plugin-vue": "^9.26.0",
+    "globals": "^15.6.0",
+    "rollup": "^4.18.0",
+    "rollup-plugin-css-only": "^4.5.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "rollup-plugin-vue": "^6.0.0",
+    "tslib": "^2.6.3",
+    "typescript": "^5.5.2",
+    "typescript-eslint": "^7.14.1",
+    "vue": "^3.4.30"
+  }
+}
